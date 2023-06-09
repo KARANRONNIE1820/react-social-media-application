@@ -1,4 +1,15 @@
 import "./sidebar.css";
+//import {
+  //RssFeed,
+  //Chat,
+  //PlayCircleFilled,
+  //Group,
+  //Bookmark,
+  //HelpOutline,
+  //WorkOutline,
+  //Event,
+  //School,
+//} from "@material-ui/icons";
 
 import RssFeed from '@mui/icons-material/RssFeed';
 import Chat from '@mui/icons-material/Chat';
@@ -12,7 +23,7 @@ import School from '@mui/icons-material/School';
 
 import { Users } from "../../dummyData";
 import CloseFriend from "../closeFriend/CloseFriend";
-import { PlayCircleFilled, PlayCircleFilledOutlined } from "@mui/icons-material";
+import { PlayCircleFilled } from "@mui/icons-material";
 
 export default function Sidebar() {
   return (
@@ -28,7 +39,7 @@ export default function Sidebar() {
             <span className="sidebarListItemText">Chats</span>
           </li>
           <li className="sidebarListItem">
-            <PlayCircleFilledOutlined className="sidebarIcon" />
+            <PlayCircleFilled className="sidebarIcon" />
             <span className="sidebarListItemText">Videos</span>
           </li>
           <li className="sidebarListItem">
