@@ -15,17 +15,17 @@ export default function Profile() {
             <div className="profileCover">
               <img
                 className="profileCoverImg"
-                src="assets/post/3.jpeg"
+                src="assets/post/3.jpg"
                 alt=""
               />
               <img
                 className="profileUserImg"
-                src="assets/person/7.jpeg"
+                src="assets/person/7.jpg"
                 alt=""
               />
             </div>
             <div className="profileInfo">
-                <h4 className="profileInfoName">Karan atelkar</h4>
+                <h4 className="profileInfoName">Karan Satelkar</h4>
                 <span className="profileInfoDesc">Hello my friends!</span>
             </div>
           </div>
