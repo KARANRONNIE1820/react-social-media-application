@@ -2,7 +2,7 @@ import "./sidebar.css";
 //import {
   //RssFeed,
   //Chat,
-  //PlayCircleFilled,
+  //PlayCircleFilledOutlined,
   //Group,
   //Bookmark,
   //HelpOutline,
@@ -13,7 +13,7 @@ import "./sidebar.css";
 
 import RssFeed from '@mui/icons-material/RssFeed';
 import Chat from '@mui/icons-material/Chat';
-import PlayCircleFilled from '@mui/icons-material/PlayCircleFilled';
+import { PlayCircleFilledOutlined } from "@mui/icons-material";
 import Group from '@mui/icons-material/Group';
 import Bookmark from '@mui/icons-material/Bookmark';
 import HelpOutline from '@mui/icons-material/HelpOutline';
@@ -23,7 +23,6 @@ import School from '@mui/icons-material/School';
 
 import { Users } from "../../dummyData";
 import CloseFriend from "../closeFriend/CloseFriend";
-import { PlayCircleFilled } from "@mui/icons-material";
 
 export default function Sidebar() {
   return (
@@ -39,7 +38,7 @@ export default function Sidebar() {
             <span className="sidebarListItemText">Chats</span>
           </li>
           <li className="sidebarListItem">
-            <PlayCircleFilled className="sidebarIcon" />
+            <PlayCircleFilledOutlined className="sidebarIcon" />
             <span className="sidebarListItemText">Videos</span>
           </li>
           <li className="sidebarListItem">
